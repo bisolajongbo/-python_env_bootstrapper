@@ -74,3 +74,22 @@ Requirement already satisfied: certifi>=2023.5.7 in ./.venv/lib/python3.12/site-
 Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
 [0;32m[SUCCESS] Packages installed successfully[0m
 [0;32m[SUCCESS] Project setup complete![0m
+[INFO] Starting project setup...[0m
+[INFO] Valid virtual environment found. Activating...[0m
+[0;32m[SUCCESS] Virtual environment activated[0m
+[INFO] Upgrading pip...[0m
+Requirement already satisfied: pip in ./.venv/lib/python3.12/site-packages (26.1.1)
+[0;32m[SUCCESS] pip upgraded successfully[0m
+[1;33m[WARNING] .gitignore already exists. Skipping...[0m
+[INFO] Installing required packages...[0m
+Requirement already satisfied: pandas in ./.venv/lib/python3.12/site-packages (3.0.2)
+Requirement already satisfied: requests in ./.venv/lib/python3.12/site-packages (2.33.1)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.12/site-packages (from pandas) (2.4.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./.venv/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.12/site-packages (from requests) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.12/site-packages (from requests) (3.13)
+Requirement already satisfied: urllib3<3,>=1.26 in ./.venv/lib/python3.12/site-packages (from requests) (2.6.3)
+Requirement already satisfied: certifi>=2023.5.7 in ./.venv/lib/python3.12/site-packages (from requests) (2026.4.22)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+[0;32m[SUCCESS] Packages installed successfully[0m
+[0;32m[SUCCESS] Project setup complete![0m
