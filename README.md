@@ -1,15 +1,11 @@
-Python Environment Bootstrapper
-Project Description
-
+# Project Title: Python Environment Bootstrapper
+# Project Description
 This project contains a Bash automation script (setup.sh) designed to quickly set up a
 Python development environment.
 The script automates common setup tasks such as creating a virtual environment, upgrading pip,
 generating a .gitignore file, and installing required Python packages.
-
-Features
-
+# Features
 The script performs the following tasks automatically:
-
 * Creates a Python virtual environment (.venv)
 * Activates the virtual environment
 * Upgrades pip
@@ -21,20 +17,17 @@ The script performs the following tasks automatically:
  * Success
  * Warning
  * Errors
-
-Technologies Used
+# Technologies Used
 * Bash Scripting
 * Python Virtual Environment (venv)
 * Linux Terminal Commands
-
-How to Execute the Script
-Step 1: Give Execute Permission
+## How to Execute the Script
+* Step 1: Give Execute Permission
 chmod +x setup.sh
-Step 2: Run the Script
+
+* Step 2: Run the Script
 ./setup.sh
-
-Example Output
-
+# 0utput
 [INFO] Starting project setup...
 [INFO] Valid virtual environment found. Activating...
 [SUCCESS] Virtual environment activated
@@ -54,11 +47,7 @@ Requirement already satisfied: certifi>=2023.5.7 in ./.venv/lib/python3.12/site-
 Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
 [SUCCESS] Packages installed successfully
 [SUCCESS] Project setup complete!
-
-Challenge Faced
-
-Challenge Faced
-
+# Challenge Faced
 During the setup process, I encountered multiple issues
 while trying to install Python3 in Linux.The first issue was a broken dependency/package error
 during the installation of Python3.
@@ -74,12 +63,9 @@ The terminal showed that a virtual environment already existed or was already ac
 which caused conflicts while running the script.
 To resolve this issue, I removed the old or broken virtual environment directory and created a new one.
 After recreating the environment, the script executed successfully.
-
 I also encountered this error while testing the script:
-
 [INFO] Starting project setup...
 ./setup.sh: line 30: setup_virtualenv: command not found
-
 This happened because the setup_virtualenv() function was not properly defined before  calling in the script.
 I fixed it by correctly defining the function and ensuring it appeared before the main() function.
 
